@@ -7,8 +7,8 @@ jobs:
         steps:
             - name: list files
               run: ls -ltra
-              
+
             - name: create artwork
-              run: ./ascii_script.sh
+              run: .github/workflows/ascii_script.sh
               
             
