@@ -1,0 +1,14 @@
+name: second attempt to generate ascii code
+on: push
+
+jobs:
+    first_job_part_2:
+        runs-on: ubuntu-latest
+        steps:
+            - name: list files
+              run: ls -ltra
+              
+            - name: create artwork
+              run: ./ascii_script.sh
+              
+            
