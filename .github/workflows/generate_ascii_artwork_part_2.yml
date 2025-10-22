@@ -13,7 +13,7 @@ jobs:
 
             - name: create artwork
               run: |
-                  chmod +x .github/workflows/ascii_script.sh
-                  .github/workflows/ascii_script.sh
+                  chmod +x .github/workflows/ascii_script.sh                 #add permission
+                  .github/workflows/ascii_script.sh                           # write the path of the .sh file
               
             
