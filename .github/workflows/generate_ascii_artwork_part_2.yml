@@ -12,6 +12,8 @@ jobs:
               run: ls -ltra
 
             - name: create artwork
-              run: .github/workflows/ascii_script.sh
+              run: |
+                  chmod +x ascii_script.sh
+                  .github/workflows/ascii_script.sh
               
             
