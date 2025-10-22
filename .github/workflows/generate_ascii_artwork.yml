@@ -12,13 +12,13 @@ jobs:
               run: sudo apt-get install cowsay -y
 
             - name: genearate artwork
-              run: cowsay -f dragon "Run for cover, I am a dragon...Rawr" >> dragon.txt
+              run: cowsay -f pig " I am a pinky, the pig...oink oink" >> pig.txt
 
             - name: check file
-              run: grep -i "dragon" dragon.txt
+              run: grep -i "pig" pig.txt
 
             - name: read file
-              run: cat dragon.txt
+              run: cat pig.txt
 
             - name: list repo file
               run: ls -ltra
