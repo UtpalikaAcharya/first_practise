@@ -5,6 +5,9 @@ jobs:
     first_job_part_2:
         runs-on: ubuntu-latest
         steps:
+            - name: use checkout
+              uses: actions/checkout@v4
+
             - name: list files
               run: ls -ltra
 
